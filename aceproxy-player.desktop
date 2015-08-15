@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Name=AceProxy Player
+GenericName=Media player
+Comment=Open AceStream links with VLC Media Player
+Exec=/usr/bin/aceproxy-player %U
+TryExec=/usr/bin/aceproxy-player
+Icon=vlc
+Terminal=false
+Type=Application
+Categories=AudioVideo;Player;Recorder;
+MimeType=x-scheme-handler/acestream;
+X-KDE-Protocols=acestream
+Keywords=Player;Capture;DVD;Audio;Video;Server;Broadcast;
+NoDisplay=True
+Name[en_US]=AceProxy Player
