@@ -10,7 +10,7 @@ Aceproxy Player allows you to open Ace Stream links with a Media Player of your 
 ## Positional arguments
     URL              The acestream url to play
 
-## Optional arguments:
+## Optional arguments
     -h, --help       Show help message and exit
     --host HOST      The aceproxy server host (default: localhost)
     --port PORT      The aceproxy server port (default: 8000)
