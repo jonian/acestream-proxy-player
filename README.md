@@ -2,7 +2,7 @@
 Aceproxy Player allows you to open Ace Stream links with a Media Player of your choice
 
 ## Dependencies
-    python, python-psutil, python-urllib
+    python, python-psutil, python-urllib3, python-notify2
 
 ## Usage
     aceproxy-player [--host HOST] [--port PORT] [--player PLAYER] URL
