@@ -7,9 +7,9 @@ import sys
 import time
 import socket
 import urllib
+import argparse
 import psutil
 import notify2
-import argparse
 
 class AceProxyPlayer(object):
     """AceProxy Player"""
@@ -22,21 +22,21 @@ class AceProxyPlayer(object):
         parser.add_argument(
             'url',
             metavar='URL',
-            help='The acestream url to play'
+            help='the acestream url to play'
         )
         parser.add_argument(
             '--host',
-            help='The aceproxy server host (default: localhost)',
+            help='the aceproxy server host (default: localhost)',
             default='localhost'
         )
         parser.add_argument(
             '--port',
-            help='The aceproxy server port (default: 8000)',
+            help='the aceproxy server port (default: 8000)',
             default='8000'
         )
         parser.add_argument(
             '--player',
-            help='The media player to use (default: vlc)',
+            help='the media player to use (default: vlc)',
             default='vlc'
         )
 

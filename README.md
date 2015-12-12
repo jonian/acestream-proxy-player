@@ -5,7 +5,7 @@ Aceproxy Player allows you to open Ace Stream links with a Media Player of your 
     python, python-psutil, python-urllib3, python-notify2
 
 ## Usage
-    aceproxy-player [--host HOST] [--port PORT] [--player PLAYER] URL
+    aceproxy-player URL [--host HOST] [--port PORT] [--player PLAYER]
 
 ## Positional arguments
     URL              The acestream url to play
@@ -15,3 +15,6 @@ Aceproxy Player allows you to open Ace Stream links with a Media Player of your 
     --host HOST      The aceproxy server host (default: localhost)
     --port PORT      The aceproxy server port (default: 8000)
     --player PLAYER  The media player to use (default: vlc)
+
+## Installation
+Arch Linux: [AUR Package](https://aur.archlinux.org/packages/acestream-proxy-player)
