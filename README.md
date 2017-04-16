@@ -17,4 +17,7 @@ Aceproxy Player allows you to open Ace Stream links with a Media Player of your 
     --player PLAYER  The media player to use (default: vlc)
 
 ## Installation
+Install required dependencies and run `install.sh` as root. The script will install aceproxy-player in `opt` directory.
+
+## Packages
 Arch Linux: [AUR Package](https://aur.archlinux.org/packages/acestream-proxy-player)
